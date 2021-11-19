@@ -12,45 +12,47 @@
   <div class="container">
     <form id="survey-form">
       <div class="group">
-        <label for="name" id="name-label">
-        <input type="text" id="name" placeholder="Enter your name here">
+        <label for="name" id="name-label"> Name <br>
+        <input type="text" id="name" placeholder="Enter your name here" class="size">
         </label>
       </div>
       <div class="group">
-        <label for="email" id="email-label">
-        <input type="email" id="email" placeholder="Enter your email here">
+        <label for="email" id="email-label"> Email <br>
+        <input type="email" id="email" placeholder="Enter your email here" class="size">
         </label>
       </div>
       <div class="group">
-        <label for="number" id="number-label">
-        <input type="number" id="number" min="18" max="3000" placeholder="Enter your age">
+        <label for="number" id="number-label"> Age <br>
+        <input type="number" id="number" min="18" max="3000" placeholder="Enter your age" class="size">
         </label>
       </div>
-      <div>
-        <select name="" id="dropdown">
+      <div class="group">
+        <select name="" id="dropdown" class="size"> Select options <br>
           <option value="same">Same</option>
           <option value="but-different">But different</option>
           <option value="still-same">But still the same</option>
         </select>
       </div>
-      <div>
+      <div class="size group" >
+        Select one <br>
         <input type="radio" name="Same">Same <br>
         <input type="radio" name="But different">But different <br>
         <input type="radio" name="But still the same">But still the same <br>
       </div>
-      <div>
+      <div class="size group">
+        Select options <br>
         <input type="checkbox" value="Same">Same <br>
         <input type="checkbox" value="But different">But different <br>
         <input type="checkbox" value="But still the same">But still the same <br>
       </div>
-      <div>
+      <div class="group">
+        Enter your comments <br>
         <input type="text" placeholder="Enter a comment here">
       </div>
       <input type="submit" id="submit">
     </form>
   </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-Hello world
     <script  src="js/index.js"></script>
   </body>
 </html>
